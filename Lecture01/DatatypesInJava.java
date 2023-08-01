@@ -1,4 +1,4 @@
-package com.DSAWithJava.Lecture_01;
+package com.DSAWithJava.Lecture01;
 
 public class DatatypesInJava {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.DSAWithJava.Lecture_01;
+package com.DSAWithJava.Lecture01;
 
 public class Basics {
     public static void main(String[] args) {
