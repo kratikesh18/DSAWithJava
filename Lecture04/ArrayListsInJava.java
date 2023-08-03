@@ -50,6 +50,11 @@ public class ArrayListsInJava {
                 arrList.add(input.nextInt());
         }
 
+        //trying arrlist[2]     //THIS WILL NOT WORK HERE
+//        for(int i = 0  ; i<arrList.size(); i++){
+//            System.out.println(arrList[i]);     t
+//        }
+
         System.out.println(arrList);
     }
 }
