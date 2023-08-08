@@ -1,7 +1,7 @@
 package com.DSAWithJava.Lecture07;
 import java.util.Arrays;
 
-public class firstAndLastOccurence {
+public class FirstAndLastOccurence {
     public static void main(String[] args) {
         int[] arr = {5,7,7,8,8,10};
         int target = 7;
