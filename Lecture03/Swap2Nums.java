@@ -7,7 +7,7 @@ public class Swap2Nums {
 
         SwapNums(a ,b);
     }
-    static  void SwapNums(int x, int y ){
+   public static  void SwapNums(int x, int y ){
         int temp = x ;
          x = y;
          y = temp;
