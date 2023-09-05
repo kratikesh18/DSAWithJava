@@ -32,7 +32,7 @@ public class RotatedBinarySearchUsingRecursion {
         }
 
         //if the start and mid is not sorted then check the key is in range from mid and end
-        if(target >= arr[mid] && target <= arr[mid]){
+        if(target >= arr[mid] && target <= arr[end){
             return rotatedBS(arr, target , mid +1  , end);
         }
 
