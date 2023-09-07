@@ -1,4 +1,4 @@
-package com.DSAWithJava.Lecture17_PatternNdSorting;
+package com.DSAWithJava.Lecture18_PatternNdSorting;
 
 import java.util.Arrays;
 
