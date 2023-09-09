@@ -25,7 +25,7 @@ public class MergeSortInPlace {
     }
 
     static void mergeInPlace(int[] arr , int start  , int mid , int end){
-        //creating answer array to store the answer temporarily of length end + start
+        //creating answer array to store the answer temporarily of length end - start
         int[] ans = new int[end - start];
 
         //taking indexes accordingly
