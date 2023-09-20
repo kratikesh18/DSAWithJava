@@ -62,15 +62,19 @@ public class TheSubsetPattern {
             list.add(processed);
             return list;
         }
-
+        List<String> list2 = new ArrayList<>();
         //extracting the character
         char ch = unprocessed.charAt(0);
         //the pick not pick pattern logic
-        List<String> left = listSubsets(processed, unprocessed.substring(1));
-        List<String> right = listSubsets(processed + ch  , unprocessed.substring(1));
+//        List<String> left = listSubsets(processed, unprocessed.substring(1));
+//        List<String> right = listSubsets(processed  + ch , unprocessed.substring(1);
+
+        //the another Way to do the same thing
+        list2.addAll( listSubsets(processed, unprocessed.substring(1)) );
+        list2.addAll( listSubsets(processed  + ch , unprocessed.substring(1)));
 
         //merging two of the list while returning to the previous function call
-        left.addAll(right);
-        return left;
+//        left.addAll(right);
+        return list2;
     }
 }
