@@ -56,17 +56,20 @@ public class TheSubsetPattern {
 
     static List<String> listSubsets(String processed, String unprocessed){
         if(unprocessed.isEmpty()){
+            //this list will created and returned by every recursive call
             ArrayList<String> list = new ArrayList<>();
+            //adding the base cased subset to the list
             list.add(processed);
             return list;
         }
 
         //extracting the character
         char ch = unprocessed.charAt(0);
-
+        //the pick not pick pattern logic
         List<String> left = listSubsets(processed, unprocessed.substring(1));
         List<String> right = listSubsets(processed + ch  , unprocessed.substring(1));
 
+        //merging two of the list while returning to the previous function call
         left.addAll(right);
         return left;
     }
