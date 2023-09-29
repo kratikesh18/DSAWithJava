@@ -25,7 +25,14 @@ public class InnerClasses {
         Example(String name){
             this.name = name;
         }
+
+        //overriding the toString() method
+        //try commenting and uncommenting while revising
+    @Override
+    public String toString() {
+        return "Hey yo ... its overrided toString(), I will not print HashCode ";
     }
+}
 
 
 
@@ -40,5 +47,11 @@ public class InnerClasses {
         //to create their instances directly we need to make them static
         //which mekes them independant from parent class
 
+
+
+        //Printing the object to understand System.out.println(); method
+        System.out.println(obj);    //it will print package path and at the end hashcode
+        //this is the default of println method , which is method of static variable out which is in the System class
+        //but if we override this toString() method by creating our own then  it will print the overrided statement
     }
 }
