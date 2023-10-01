@@ -16,4 +16,9 @@ public class Shapes {
         return length* breadth;
     }
 
+   // @Override
+    static void heyGreeting(){
+        System.out.println("Hello this is static method of Shapes class");
+    }
+
 }

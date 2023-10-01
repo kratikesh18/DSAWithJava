@@ -29,5 +29,23 @@ public class Main {
         //by refVar we can determine what can be access but the Object can type
         //determines what to run
 
+        //overriding the method toString() in the Shape class
+        //this is the overridden method
+        System.out.println(shapes1);
+
+
+        //can overriding the static methods are possible
+        //caling it via the reftype parent and obj type chld
+
+//        Shapes shapes2 = new Triangle();
+//        shapes2.heyGreeting();  // printing the method from shapes class
+            //we have tp directly call it from the class
+
+//        Triangle.heyGreeting();
+//        Shapes.heyGreeting();     //figure it out
+        //they are not overriding because they are static
+        // "BECAUSE : OVERRIDING IS DEPEND ON THE OBJECTS , AND STATIC IS NOT DEPEND ON
+        // ANY OBJECT THATS WHY STATIC METHODS ARE NOT OVERRIDDEN
+
     }
 }
