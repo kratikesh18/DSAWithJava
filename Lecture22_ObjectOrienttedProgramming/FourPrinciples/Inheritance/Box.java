@@ -1,6 +1,11 @@
 package com.DSAWithJava.Lecture22_ObjectOrienttedProgramming.FourPrinciples.Inheritance;
 
-public class Box {
+public  class Box {        //we can prevent this class from getting inherited by other
+    // class by making it private
+
+    // in case you want to make it private you should make all methods private also
+
+
     //here we created a Box Class to demonstrate Inheritance
     //Box have some properties
     int length ;
