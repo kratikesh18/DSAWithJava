@@ -86,6 +86,13 @@ public class ObjectClass {
         //the object contains some .getClass() method ;
         System.out.println(obj.getClass()); //this will give us the package of the class
         System.out.println(obj.getClass().getName());   //.getClass have some of the methods
+        //getClass is final method that's why we cant override it
+        //.getClass() is used for getting information about the class
+
+
+        //the instance of operator
+        //it throws a boolean value if the object is instance or not
+        System.out.println(obj instanceof Object);
 
     }
 }
