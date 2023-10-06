@@ -13,6 +13,10 @@ public class ConstructorsInJava{
         Test obj2 = new Test("Stube" , 323 );
         System.out.println(obj2.marks +" " + obj2.rollNo + " " + obj2.name);
 
+        //printing the data of the thw two objects with the display methods
+        System.out.println("printing the data with display method");
+        obj.display();
+        obj2.display();
 
 
 
@@ -26,6 +30,8 @@ public class ConstructorsInJava{
 
         Test obj4 =  new Test(obj);
         System.out.println(obj4.name + " " + obj4.marks + " " + obj4.rollNo);
+
+
     }
 
 }
@@ -67,5 +73,11 @@ class Test {
         this.name = other.name;
         this.rollNo = other.rollNo;
         this.marks  = other.marks;
+    }
+
+
+    //consider this function having display function
+    void display(){
+        System.out.println(marks + " " + rollNo + " " + name);
     }
 }
